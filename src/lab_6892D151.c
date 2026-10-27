@@ -3,7 +3,7 @@
 long calculate_factorial(int number )
 {
     // TODO: write your code here
-    if (number < 0) {
+    if (number < 0 || number > 20) {
         return -1;  // Invalid input
     }
     long factorial = 1;
